@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="quickdone",
-    version="0.0.5",
+    version="0.0.8",
     author="quickdone",
     author_email="donequick@outlook.com",
     description="A handy toolkit",
