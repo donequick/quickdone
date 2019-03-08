@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="quickdone",
-    version="0.0.1",
+    version="0.0.5",
     author="quickdone",
     author_email="donequick@outlook.com",
     description="A handy toolkit",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/donequick/quickdone",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
