@@ -1,11 +1,13 @@
 import setuptools
 
+from quickdone import __version__
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="quickdone",
-    version="0.0.8",
+    version=__version__,
     author="quickdone",
     author_email="donequick@outlook.com",
     description="A handy toolkit",
@@ -18,4 +20,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        'xlrd',
+        'pandas'
+    ],
+    python_requires='>=3.7.2'
 )

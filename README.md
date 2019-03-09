@@ -25,4 +25,4 @@ $ python setup.py sdist bdist_wheel
 $ twine upload dist/*
 ```
 
-For more, see [python packaging-projects](https://packaging.python.org/tutorials/packaging-projects/)
+For more, see [python packaging-projects](https://packaging.python.org/tutorials/packaging-projects/) or [Packaging and distributing projects](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
